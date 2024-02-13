@@ -110,10 +110,57 @@ Group
 </div>
 </header>
 <main>
-<article>
+<article><br><br><br><br><br>
 <!--
 - #HERO
 -->
+
+<!-- TradingView Widget BEGIN -->
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"></span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
+  {
+  "symbols": [
+    {
+      "proName": "BITSTAMP:BTCUSD",
+      "title": "Bitcoin"
+    },
+    {
+      "proName": "BITSTAMP:ETHUSD",
+      "title": "Ethereum"
+    },
+    {
+      "description": "Solusdt",
+      "proName": "BINANCE:SOLUSDT"
+    },
+    {
+      "description": "Nifty",
+      "proName": "NSE:NIFTY"
+    },
+    {
+      "description": "Gold",
+      "proName": "NCDEX:GOLD"
+    },
+    {
+      "description": "Sliver",
+      "proName": "CAPITALCOM:SILVER"
+    },
+   
+    {
+     
+      "proName": "NSE:BSE"
+    }
+  ],
+  "showSymbolLogo": true,
+  "isTransparent": false,
+  "displayMode": "compact",
+  "colorTheme": "dark",
+  "locale": "en"
+}
+  </script>
+</div>
+<!-- TradingView Widget END -->
 <section class="section hero" aria-label="hero" data-section>
 <div class="container">
 <div class="hero-content">
@@ -142,137 +189,89 @@ class="w-100" >
 <!--
 - #TREND
 -->
-<section class="section trend" aria-label="crypto trend" data-section>
-<div class="container">
-<div class="trend-tab">
-<ul class="tab-nav">
-<li>
-<button class="tab-btn active">Gold-Silver</button>
-</li>
-<li>
-<a href="sm2.html"><button class="tab-btn">NSE & BSE</button></a>
-</li>
-</ul>
-<ul class="tab-content">
-<li>
-<div class="trend-card">
-<div class="card-title-wrapper">
-<a href="#" class="card-title">
-Gold <span class="span">IND</span>
-</a>
+<!-- TradingView Widget BEGIN 
+<div class="tradingview-widget-container">
+  <div class="tradingview-widget-container__widget"></div>
+  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-symbol-overview.js" async>
+  {
+  "symbols": [
+    [
+      "Apple",
+      "AAPL|1D"
+    ],
+    [
+      "Google",
+      "GOOGL|1D"
+    ],
+    [
+      "Microsoft",
+      "MSFT|1D"
+    ]
+  ],
+  "chartOnly": false,
+  "width": 550,
+  "height": 400,
+  "locale": "en",
+  "colorTheme": "dark",
+  "autosize": false,
+  "showVolume": false,
+  "showMA": false,
+  "hideDateRanges": false,
+  "hideMarketStatus": false,
+  "hideSymbolLogo": false,
+  "scalePosition": "right",
+  "scaleMode": "Normal",
+  "fontFamily": "-apple-system, BlinkMacSystemFont, Trebuchet MS, Roboto, Ubuntu, sans-serif",
+  "fontSize": "10",
+  "noTimeScale": false,
+  "valuesTracking": "1",
+  "changeMode": "price-and-percent",
+  "chartType": "area",
+  "maLineColor": "#2962FF",
+  "maLineWidth": 1,
+  "maLength": 9,
+  "lineWidth": 2,
+  "lineType": 0,
+  "dateRanges": [
+    "1d|1",
+    "1m|30",
+    "3m|60",
+    "12m|1D",
+    "60m|1W",
+    "all|1M"
+  ]
+}
+  </script>
 </div>
-<data class="card-value" value="46168.95">₹ 64,420.00</data>
-<div class="card-analytics">
-<data class="current-price" value="36641.20">₹ 773.04</data>
-<div class="badge red">+1.2%</div>
-</div>
-</div>
-</li>
-<li>
-<div class="trend-card ">
-<div class="card-title-wrapper">
-<a href="#" class="card-title">
-Gold Future <span class="span">IND</span>
-</a>
-</div>
-<data class="card-value" value="3480.04">₹ 2,047.00</data>
-<div class="card-analytics">
-<data class="current-price" value="36641.20">₹ 113.60</data>
-<div class="badge green">+5.55%</div>
-</div>
-</div>
-</li>
-<li>
-<div class="trend-card">
-<div class="card-title-wrapper">
-<a href="#" class="card-title">
-Silver <span class="span">IND</span>
-</a>
-</div>
-<data class="card-value" value="1.00">₹ 74,500</data>
-<div class="card-analytics">
-<data class="current-price" value="36641.20">₹ 1490.00</data>
-<div class="badge green">+1.00%</div>
-</div>
-</div>
-</li>
-<li>
-<div class="trend-card">
-<div class="card-title-wrapper">
-<a href="#" class="card-title">
-    Silver Future <span class="span">IND</span>
-</a>
-</div>
-<data class="card-value" value="443.56">₹ 22.45</data>
-<div class="card-analytics">
-<data class="current-price" value="36641.20">₹ 0.672</data>
-<div class="badge red">-3.00</div>
-</div>
-</div>
-</li>
-</ul>
-</div>
-</div>
-</section>
+ TradingView Widget END -->
+
 <!--
 - #MARKET
 -->
 
-<!-- TradingView Widget BEGIN -->
-<div class="tradingview-widget-container">
-  <div class="tradingview-widget-container__widget"></div>
-  <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text"><h1>SSV Stock</h1></span></a></div>
-  <script type="text/javascript" src="https://s3.tradingview.com/external-embedding/embed-widget-ticker-tape.js" async>
-  {
-  "symbols": [
-    {
-      "proName": "FOREXCOM:SPXUSD",
-      "title": "S&P 500"
-    },
-    {
-      "proName": "FOREXCOM:NSXUSD",
-      "title": "US 100"
-    },
-    {
-      "proName": "FX_IDC:EURUSD",
-      "title": "EUR to USD"
-    },
-    {
-      "proName": "BITSTAMP:BTCUSD",
-      "title": "Bitcoin"
-    },
-    {
-      "proName": "BITSTAMP:ETHUSD",
-      "title": "Ethereum"
-    }
-  ],
-  "showSymbolLogo": true,
-  "isTransparent": false,
-  "displayMode": "adaptive",
-  "colorTheme": "dark",
-  "locale": "en"
-}
-  </script>
-</div>
-<!-- TradingView Widget END -->
 <section class="section market" aria-label="market update" data-section>
 <div class="container">
 <div class="title-wrapper">
 <h2 class="h2 section-title">Top 6 </h2>
-<a href="#" class="btn-link">See All Coins</a>
+
 </div>
 <div class="market-tab">
 <ul class="tab-nav">
+  <li>
+    <a href="pages/p.html"><button class="tab-btn "> currency</button></a>
+    </li>
 <li>
-<button class="tab-btn active">Crypto</button>
+<button class="tab-btn " id="btn_currency">Crypto</button>
 </li>
 <li>
-    <a href="#"><button class="tab-btn">Equity</button></a>
+<button class="tab-btn " id="btn_equity">Equity</button>
 </li>
 <li>
-    <a href="#"><button class="tab-btn">IPO</button></a>
+<a href="https://ticker.finology.in/IPO"><button class="tab-btn " id="btn_ipo">IPO</button></a>
 </li>
 </ul>
+<div id="Currency-1">
 <table class="market-table">
 <thead class="table-head">
 <tr class="table-row table-title">
@@ -459,6 +458,202 @@ class="chart">
 </tr>
 </tbody>
 </table>
+<a href="/pages/seeallcoins.html" class="btn-link">See All Coins</a>
+</div>
+<div id="equity-1">
+  <table class="market-table">
+    <thead class="table-head">
+    <tr class="table-row table-title">
+    <th class="table-heading"></th>
+    <th class="table-heading" scope="col">#</th>
+    <th class="table-heading" scope="col">Name</th>
+    <th class="table-heading" scope="col">Last Price</th>
+    <th class="table-heading" scope="col">24h %</th>
+    <th class="table-heading" scope="col">Market Cap</th>
+    <th class="table-heading" scope="col">Last 7 Days</th>
+    <th class="table-heading"></th>
+    </tr>
+    </thead>
+    <tbody class="table-body">
+    <tr class="table-row">
+    <td class="table-data">
+    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+    <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+    <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+    </button>
+    </td>
+    <th class="table-data rank" scope="row">1</th>
+    <td class="table-data">
+    <div class="wrapper">
+    <img src="/images/infosys.jpg"width="20" height="20" alt="Ethereum logo"
+    class="img">
+    <h3>
+    <a href="https://www.tradingview.com/chart/?symbol=NSE%3AINFY" class="coin-name">Infosys <span class="span"></span></a>
+    </h3>
+    </div>
+    </td>
+    <td class="table-data last-price">₹ 2,01,013.38</td>
+    <td class="table-data last-update green">+6.55%</td>
+    <td class="table-data market-cap">₹ 24,178,894,336,716.97</td>
+    <td class="table-data">
+    <img src="images/gains.jpg" width="100" height="40" alt="profit chart"
+    class="chart">
+    </td>
+    <td class="table-data">
+    <a href="https://www.tradingview.com/chart/?symbol=NSE%3AINFY"><button class="btn btn-outline">Trade</button></a>
+    </td>
+    </tr>
+    <tr class="table-row">
+    <td class="table-data">
+    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+    <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+    <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+    </button>
+    </td>
+    <th class="table-data rank" scope="row">2</th>
+    <td class="table-data">
+    <div class="wrapper">
+    <img src="/images/jsw infrastructure.png" width="20" height="20" alt="Bitcoin logo"
+    class="img">
+    <h3>
+    <a href="https://www.tradingview.com/chart/?symbol=NSE%3AJSWINFRA" class="coin-name">JSW infrastructure <span class="span"></span></a>
+    </h3>
+    </div>
+    </td>
+    <td class="table-data last-price">₹ 37,24,153.84</td>
+    <td class="table-data last-update red">-6.49%</td>
+    <td class="table-data market-cap">₹ 72,370,207,904,116.11</td>
+    <td class="table-data">
+    <img src="images/loss.jpg" width="100" height="40" alt="profit chart"
+    class="chart">
+    </td>
+    <td class="table-data">
+    <a href="https://www.tradingview.com/chart/?symbol=NSE%3AJSWINFRA"><button class="btn btn-outline">Trade</button></a>
+    </td>
+    </tr>
+    <tr class="table-row">
+    <td class="table-data">
+    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+    <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+    <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+    </button>
+    </td>
+    <th class="table-data rank" scope="row">3</th>
+    <td class="table-data">
+    <div class="wrapper">
+    <img src="/images/adani ports.png" width="20" height="20" alt="Tether logo"
+    class="img">
+    <h3>
+    <a href="https://www.tradingview.com/chart/?symbol=NSE%3AADANIPORTS" class="coin-name">Adani Ports<span
+    class="span"></span></a>
+    </h3>
+    </div>
+    </td>
+    <td class="table-data last-price">₹ 82.96</td>
+    <td class="table-data last-update red">-3.46%</td>
+    <td class="table-data market-cap">₹ 7,977,592,413,799.92</td>
+    <td class="table-data">
+    <img src="images/loss.jpg" width="100" height="40" alt="profit chart"
+    class="chart">
+    </td>
+    <td class="table-data">
+    <a href="https://www.tradingview.com/chart/?symbol=NSE%3AADANIPORTS"><button class="btn btn-outline">Trade</button></a>
+    </td>
+    </tr>
+    <tr class="table-row">
+    <td class="table-data">
+    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+    <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+    <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+    </button>
+    </td>
+    <th class="table-data rank" scope="row">4</th>
+    <td class="table-data">
+    <div class="wrapper">
+    <img src="/images/tata motors.jpg" width="20" height="20" alt="Solana logo"
+    class="img">
+    <h3>
+    <a href="https://www.tradingview.com/chart/?symbol=NSE%3ATATAMOTORS" class="coin-name">Tata Motors <span class="span"></span></a>
+    </h3>
+    </div>
+    </td>
+    <td class="table-data last-price">₹ 8,462.05</td>
+    <td class="table-data last-update green">+0.45%</td>
+    <td class="table-data market-cap">₹ 3,696,893,612,885.30</td>
+    <td class="table-data">
+    <img src="images/gains.jpg" width="100" height="40" alt="profit chart"
+    class="chart">
+    </td>
+    <td class="table-data">
+    <a href="https://www.tradingview.com/chart/?symbol=NSE%3ATATAMOTORS"><button class="btn btn-outline">Trade</button></a>
+    </td>
+    </tr>
+    <tr class="table-row">
+    <td class="table-data">
+    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+    <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+    <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+    </button>
+    </td>
+    <th class="table-data rank" scope="row">5</th>
+    <td class="table-data">
+    <div class="wrapper">
+    <img src="/images/tata tech.png" width="20" height="20" alt="Cardano logo"
+    class="img">
+    <h3>
+    <a href="https://www.tradingview.com/chart/?symbol=NSE%3ATATATECH" class="coin-name">Tata Tech <span class="span"></span></a>
+    </h3>
+    </div>
+    </td>
+    <td class="table-data last-price">₹ 44020</td>
+    <td class="table-data last-update red">-0.08%</td>
+    <td class="table-data market-cap">₹ 1,470,017,256,299.75</td>
+    <td class="table-data">
+    <img src="images/loss.jpg" width="100" height="40" alt="profit chart"
+    class="chart">
+    </td>
+    <td class="table-data">
+    <a href="https://www.tradingview.com/chart/?symbol=NSE%3ATATATECH"><button class="btn btn-outline">Trade</button></a>
+    </td>
+    </tr>
+    <tr class="table-row">
+    <td class="table-data">
+    <button class="add-to-fav" aria-label="Add to favourite" data-add-to-fav>
+    <ion-icon name="star-outline" aria-hidden="true" class="icon-outline"></ion-icon>
+    <ion-icon name="star" aria-hidden="true" class="icon-fill"></ion-icon>
+    </button>
+    </td>
+    <th class="table-data rank" scope="row">6</th>
+    <td class="table-data">
+    <div class="wrapper">
+    <img src="/images/jio fin.jpg" width="20" height="20" alt="Avalanche
+    logo" class="img">
+    <h3>
+    <a href="https://www.tradingview.com/chart/?symbol=NSE%3AJIOFIN" class="coin-name">Jio Fin <span
+    class="span"></span></a>
+    </h3>
+    </div>
+    </td>
+    <td class="table-data last-price">₹ 2,943.77</td>
+    <td class="table-data last-update green">+0.51%</td>
+    <td class="table-data market-cap">₹ 1,076,156,344,977.96</td>
+    <td class="table-data">
+    <img src="images/gains.jpg" width="100" height="40" alt="profit chart"
+    class="chart">
+    </td>
+    <td class="table-data">
+    <a href="https://www.tradingview.com/chart/?symbol=NSE%3AJIOFIN"><button class="btn btn-outline">Trade</button></a>
+    </td>
+    </tr>
+    </tbody>
+    
+    </table>
+    <a href="/pages/seeallstock.html" class="btn-link">See All Coins</a>
+</div>
+
+
+   
+</div>
 </div>
 </div>
 <br><br> 
